@@ -9,6 +9,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/[Aa]ssets/Sci-fi_Drones/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -76,3 +77,130 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 *.tgz
+Assets/Sci_fi_Drones.meta
+Assets/Sci_fi_Drones/Materials.meta
+Assets/Sci_fi_Drones/Models.meta
+Assets/Sci_fi_Drones/Prefabs.meta
+Assets/Sci_fi_Drones/Read me.txt
+Assets/Sci_fi_Drones/Read me.txt.meta
+Assets/Sci_fi_Drones/Show_Assets.unity
+Assets/Sci_fi_Drones/Show_Assets.unity.meta
+Assets/Sci_fi_Drones/Textures.meta
+Assets/Sci_fi_Drones/Materials/Robot_Collector.mat
+Assets/Sci_fi_Drones/Materials/Robot_Collector.mat.meta
+Assets/Sci_fi_Drones/Materials/Robot_Guardian.mat
+Assets/Sci_fi_Drones/Materials/Robot_Guardian.mat.meta
+Assets/Sci_fi_Drones/Materials/Robot_Invader.mat
+Assets/Sci_fi_Drones/Materials/Robot_Invader.mat.meta
+Assets/Sci_fi_Drones/Materials/Robot_Scout.mat
+Assets/Sci_fi_Drones/Materials/Robot_Scout.mat.meta
+Assets/Sci_fi_Drones/Materials/Robot_Scout_HyperX_Back.mat
+Assets/Sci_fi_Drones/Materials/Robot_Scout_HyperX_Back.mat.meta
+Assets/Sci_fi_Drones/Materials/Robot_Scout_HyperX_Back_Red.mat
+Assets/Sci_fi_Drones/Materials/Robot_Scout_HyperX_Back_Red.mat.meta
+Assets/Sci_fi_Drones/Materials/Robot_Scout_HyperX_Front.mat
+Assets/Sci_fi_Drones/Materials/Robot_Scout_HyperX_Front.mat.meta
+Assets/Sci_fi_Drones/Materials/Robot_Scout_HyperX_Front_Red.mat
+Assets/Sci_fi_Drones/Materials/Robot_Scout_HyperX_Front_Red.mat.meta
+Assets/Sci_fi_Drones/Materials/Robot_Scout_Rockie_Unity.mat
+Assets/Sci_fi_Drones/Materials/Robot_Scout_Rockie_Unity.mat.meta
+Assets/Sci_fi_Drones/Models/Robot_Collector.fbx.meta
+Assets/Sci_fi_Drones/Models/Robot_Guardian.fbx.meta
+Assets/Sci_fi_Drones/Models/Robot_Invader.fbx.meta
+Assets/Sci_fi_Drones/Models/Robot_Scout.fbx.meta
+Assets/Sci_fi_Drones/Models/Robot_Scout_HyperX_Unity.fbx.meta
+Assets/Sci_fi_Drones/Models/Robot_Scout_Rockie_Unity.fbx.meta
+Assets/Sci_fi_Drones/Prefabs/Robot_Collector.prefab
+Assets/Sci_fi_Drones/Prefabs/Robot_Collector.prefab.meta
+Assets/Sci_fi_Drones/Prefabs/Robot_Guardian 1.prefab
+Assets/Sci_fi_Drones/Prefabs/Robot_Guardian 1.prefab.meta
+Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab
+Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab.meta
+Assets/Sci_fi_Drones/Prefabs/Robot_Invader.prefab
+Assets/Sci_fi_Drones/Prefabs/Robot_Invader.prefab.meta
+Assets/Sci_fi_Drones/Prefabs/Robot_Scout.prefab
+Assets/Sci_fi_Drones/Prefabs/Robot_Scout.prefab.meta
+Assets/Sci_fi_Drones/Prefabs/Robot_Scout_HyperX.prefab
+Assets/Sci_fi_Drones/Prefabs/Robot_Scout_HyperX.prefab.meta
+Assets/Sci_fi_Drones/Prefabs/Robot_Scout_HyperX_Red.prefab
+Assets/Sci_fi_Drones/Prefabs/Robot_Scout_HyperX_Red.prefab.meta
+Assets/Sci_fi_Drones/Prefabs/Robot_Scout_Rockie.prefab
+Assets/Sci_fi_Drones/Prefabs/Robot_Scout_Rockie.prefab.meta
+Assets/Sci_fi_Drones/Textures/Robot_Collector_Albedo.png
+Assets/Sci_fi_Drones/Textures/Robot_Collector_Albedo.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Collector_Emission.png
+Assets/Sci_fi_Drones/Textures/Robot_Collector_Emission.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Collector_MetallicSmoothness.png
+Assets/Sci_fi_Drones/Textures/Robot_Collector_MetallicSmoothness.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Collector_Normal.png
+Assets/Sci_fi_Drones/Textures/Robot_Collector_Normal.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Guardian_Albedo.png
+Assets/Sci_fi_Drones/Textures/Robot_Guardian_Albedo.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Guardian_Emission.png
+Assets/Sci_fi_Drones/Textures/Robot_Guardian_Emission.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Guardian_MetallicSmoothness.png
+Assets/Sci_fi_Drones/Textures/Robot_Guardian_MetallicSmoothness.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Guardian_Normal.png
+Assets/Sci_fi_Drones/Textures/Robot_Guardian_Normal.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Invader_Albedo.png
+Assets/Sci_fi_Drones/Textures/Robot_Invader_Albedo.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Invader_Emission.png
+Assets/Sci_fi_Drones/Textures/Robot_Invader_Emission.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Invader_MetallicSmoothness.png
+Assets/Sci_fi_Drones/Textures/Robot_Invader_MetallicSmoothness.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Invader_Normal.png
+Assets/Sci_fi_Drones/Textures/Robot_Invader_Normal.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_Albedo.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_Albedo.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_Emission.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_Emission.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_AlbedoTransparency.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_AlbedoTransparency.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_AlbedoTransparency_Red.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_AlbedoTransparency_Red.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_Emission.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_Emission.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_MetallicSmoothness.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_MetallicSmoothness.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_MetallicSmoothness_Red.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_MetallicSmoothness_Red.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_Normal.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_Normal.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_Normal_Red.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_Normal_Red.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_AlbedoTransparency.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_AlbedoTransparency.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_AlbedoTransparency_Red.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_AlbedoTransparency_Red.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_Emission.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_Emission.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_MetallicSmoothness.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_MetallicSmoothness.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_MetallicSmoothness_Red.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_MetallicSmoothness_Red.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_Normal.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_Normal.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_Normal_Red.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_Normal_Red.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_MetallicSmoothness.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_MetallicSmoothness.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_Normal.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_Normal.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_Rockie_Unity_Robot_Scout_Rockie_AlbedoTransparency.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_Rockie_Unity_Robot_Scout_Rockie_AlbedoTransparency.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_Rockie_Unity_Robot_Scout_Rockie_Emission.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_Rockie_Unity_Robot_Scout_Rockie_Emission.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_Rockie_Unity_Robot_Scout_Rockie_MetallicSmoothness.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_Rockie_Unity_Robot_Scout_Rockie_MetallicSmoothness.png.meta
+Assets/Sci_fi_Drones/Textures/Robot_Scout_Rockie_Unity_Robot_Scout_Rockie_Normal.png
+Assets/Sci_fi_Drones/Textures/Robot_Scout_Rockie_Unity_Robot_Scout_Rockie_Normal.png.meta
+Assets/TG Prefabs/Eyes.prefab
+Assets/TG Prefabs/Eyes.prefab.meta
+Assets/TG Prefabs/RobotPartner.prefab
+Assets/TG Prefabs/RobotPartner.prefab.meta
+Assets/TG Prefabs/Gems/ETGems/GhostCubie.prefab
+Assets/TG Prefabs/Gems/ETGems/GhostCubie.prefab.meta
+Assets/TG Scripts/ToggleLaser.cs
+Assets/TG Scripts/ToggleLaser.cs.meta
+Assets/TG Scripts/TrackGem.cs
+Assets/TG Scripts/TrackGem.cs.meta

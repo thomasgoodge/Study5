@@ -6,6 +6,7 @@ public class TargetGem : MonoBehaviour
 {
 
     public GameObject targetGem;
+    public GameObject targetGem2;
     public GameObject hazardGem;
     public float  rotationSpeed = 1.0f;
 
@@ -21,8 +22,9 @@ public class TargetGem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        hazardGem = GameObject.Find("Cubie(Clone)");
+        hazardGem = GameObject.Find("GhostCubie(Clone)");
         targetGem = GameObject.Find("Hexgon(Clone)");
+        targetGem2 = GameObject.Find("Penta(Clone)");
 
         SearchTarget = targetGem.transform.position +  new Vector3(0.1f,0.1f,0f);
 
@@ -34,6 +36,10 @@ public class TargetGem : MonoBehaviour
         else if (targetGem != null)
         {
             RotateTowards(targetGem.transform.position);
+        }
+        else if (targetGem2 != null)
+        {
+            RotateTowards(targetGem2.transform.position);
         }
         else
         {

@@ -92,7 +92,7 @@ public class HazardOnsetManager : MonoBehaviour
 
         if (hazardTimeCounter.ElapsedMilliseconds >= length  && currentClip != "")
         {
-           // PauseGame();
+            PauseGame();
             StopwatchReset();
             currentClip = "";
             hazard = false;
