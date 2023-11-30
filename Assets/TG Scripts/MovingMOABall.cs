@@ -8,7 +8,7 @@ public class MovingMOABall : MonoBehaviour
 
 private float time = 0.0f;
 private bool isMoving = false;
-private bool isActive = false;
+//private bool isActive = false;
 
 [SerializeField] private Vector3 initialVelocity;
 [SerializeField] private float minVelocity = 0.1f;
@@ -29,6 +29,7 @@ private Rigidbody rb;
     {
         lastFrameVelocity = rb.velocity;
         
+        
     }
 
     private void OnCollisionEnter(Collision collision) 
@@ -40,6 +41,8 @@ private Rigidbody rb;
     {
         var speed = lastFrameVelocity.magnitude;
         var direction = Vector3.Reflect(lastFrameVelocity.normalized, collisionNormal);
+
+        direction.z = 0.03f;
 
         rb.velocity= direction * Mathf.Max(speed, minVelocity);
     }

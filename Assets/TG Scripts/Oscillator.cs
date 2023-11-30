@@ -36,4 +36,16 @@ public class Oscillator : MonoBehaviour
         Vector3 offset = movementVector * movementFactor;
         transform.position = startingPostiion + offset;
     }
+
+    public void StartBounce()
+    {
+        StartCoroutine(CoroutineBounce());
+    }
+
+    IEnumerator CoroutineBounce()
+    {
+        period = 0.3f;
+        yield return new WaitForSeconds(0.5f);
+        period = 3f;
+    }
 }

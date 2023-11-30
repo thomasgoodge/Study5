@@ -12,11 +12,13 @@ public class TargetGem : MonoBehaviour
 
     public Vector3 SearchTarget;
 
+    public Transform targetCamera;
+
     public Vector3 CentreTarget = new Vector3(0f, 0f, 0.5f);
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform.LookAt(targetCamera);
     }
 
     // Update is called once per frame
@@ -53,7 +55,8 @@ public class TargetGem : MonoBehaviour
     {
         Vector3 targetDirection = targetPosition - transform.position;
         Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
-
+        
+        
         // Use Lerp to smoothly interpolate between the current rotation and the target rotation
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
     }
