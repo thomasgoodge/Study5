@@ -8,6 +8,9 @@ public class TargetGem : MonoBehaviour
     public GameObject targetGem;
     public GameObject targetGem2;
     public GameObject hazardGem;
+    public GameObject scanGem;
+
+    public GameObject centreGem;
     public float  rotationSpeed = 1.0f;
 
     public Vector3 SearchTarget;
@@ -27,6 +30,9 @@ public class TargetGem : MonoBehaviour
         hazardGem = GameObject.Find("GhostCubie(Clone)");
         targetGem = GameObject.Find("Hexgon(Clone)");
         targetGem2 = GameObject.Find("Penta(Clone)");
+        scanGem = GameObject.Find("ScanCubie(Clone)");
+        centreGem = GameObject.Find("FOE");
+
 
         SearchTarget = targetGem.transform.position +  new Vector3(0.1f,0.1f,0f);
 
@@ -35,17 +41,21 @@ public class TargetGem : MonoBehaviour
         {
             RotateTowards(hazardGem.transform.position);
         }
-        else if (targetGem != null)
+        else if (scanGem != null)
+        {
+            RotateTowards(scanGem.transform.position);
+        }
+       /* else if (targetGem != null)
         {
             RotateTowards(targetGem.transform.position);
         }
         else if (targetGem2 != null)
         {
             RotateTowards(targetGem2.transform.position);
-        }
-        else
+        }*/
+        else if (centreGem != null)
         {
-            RotateTowards(CentreTarget);
+            RotateTowards(centreGem.transform.position);
         }
     }
     
