@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class TargetGem : MonoBehaviour
 {
-
+/*
     public GameObject targetGem;
     public GameObject targetGem2;
     public GameObject hazardGem;
     public GameObject scanGem;
+*/
+    public GameObject visualCue;
 
     public GameObject centreGem;
     public float  rotationSpeed = 1.0f;
@@ -27,16 +29,22 @@ public class TargetGem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        visualCue = GameObject.Find("VisualCue");
+        /*
         hazardGem = GameObject.Find("GhostCubie(Clone)");
         targetGem = GameObject.Find("Hexgon(Clone)");
         targetGem2 = GameObject.Find("Penta(Clone)");
         scanGem = GameObject.Find("ScanCubie(Clone)");
         centreGem = GameObject.Find("FOE");
+        */
 
 
-        SearchTarget = targetGem.transform.position +  new Vector3(0.1f,0.1f,0f);
-
-
+    //SearchTarget = targetGem.transform.position +  new Vector3(0.1f,0.1f,0f);
+    if (visualCue != null)
+    {
+        RotateTowards(visualCue.transform.position);
+    }
+        /*
         if (hazardGem != null)
         {
             RotateTowards(hazardGem.transform.position);
@@ -52,11 +60,12 @@ public class TargetGem : MonoBehaviour
         else if (targetGem2 != null)
         {
             RotateTowards(targetGem2.transform.position);
-        }*/
+        }
         else if (centreGem != null)
         {
             RotateTowards(centreGem.transform.position);
         }
+        */
     }
     
 
