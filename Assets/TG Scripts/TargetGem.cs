@@ -44,6 +44,11 @@ public class TargetGem : MonoBehaviour
     {
         RotateTowards(visualCue.transform.position);
     }
+
+    else
+    {
+        RotateTowards(targetCamera.transform.position);
+    }
         /*
         if (hazardGem != null)
         {
