@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 655296735}
   - component: {fileID: 655296734}
   - component: {fileID: 655296733}
+  - component: {fileID: 1512584961}
   m_Layer: 0
   m_Name: FOE
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655296731}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0313496, y: -0.3152587, z: -5.4972734}
+  m_LocalPosition: {x: -0.0313496, y: -0.27, z: -5.4972734}
   m_LocalScale: {x: 0.045496404, y: 0.078021176, z: 0.0013402844}
   m_Children: []
   m_Father: {fileID: 1197437577035353812}
@@ -95,6 +96,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1512584961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655296731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9847b73d9aa8f5149bee3e89fde4cccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: 0.02, y: 0, z: 0}
+  movementFactor: 0.32
+  period: 5
 --- !u!1 &3065380196115378023
 GameObject:
   m_ObjectHideFlags: 0

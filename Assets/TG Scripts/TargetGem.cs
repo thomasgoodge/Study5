@@ -13,17 +13,28 @@ public class TargetGem : MonoBehaviour
     public GameObject visualCue;
 
     public GameObject centreGem;
+
+    public GameObject thisHead;
+
+    public GameObject HazardOnsetPaused;
+
+    public MeshRenderer RobotMesh;
+
     public float  rotationSpeed = 1.0f;
 
     public Vector3 SearchTarget;
 
     public Transform targetCamera;
 
+    public bool showHead = true;
+
     public Vector3 CentreTarget = new Vector3(0f, 0f, 0.5f);
     // Start is called before the first frame update
     void Start()
     {
         transform.LookAt(targetCamera);
+        thisHead = GameObject.Find("Robot_Guardian");
+        showHead = true;
     }
 
     // Update is called once per frame
@@ -71,9 +82,22 @@ public class TargetGem : MonoBehaviour
             RotateTowards(centreGem.transform.position);
         }
         */
-    }
     
+         showHead = HazardOnsetPaused.GetComponent<HazardOnsetManager>().stopwatchRunning;
 
+        if (showHead == false)
+            {
+                 RobotMesh.enabled = false;
+            }
+        else if (showHead == true)
+            {
+                RobotMesh.enabled = true;
+            }
+        else
+        {
+            RobotMesh.enabled = true;
+        }
+    }
 
     void RotateTowards(Vector3 targetPosition)
     {

@@ -1574,8 +1574,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce120628df2f4544a873b77a7862dabf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetGem: {fileID: 0}
-  hazardGem: {fileID: 0}
+  visualCue: {fileID: 0}
+  centreGem: {fileID: 0}
+  thisHead: {fileID: 0}
+  HazardOnsetPaused: {fileID: 0}
+  RobotMesh: {fileID: 0}
+  rotationSpeed: 1
+  SearchTarget: {x: 0, y: 0, z: 0}
+  targetCamera: {fileID: 0}
+  showHead: 1
+  CentreTarget: {x: 0, y: 0, z: 0.5}
 --- !u!1 &1014616499
 GameObject:
   m_ObjectHideFlags: 0
