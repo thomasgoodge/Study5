@@ -10,13 +10,13 @@ public class TargetGem : MonoBehaviour
     public GameObject hazardGem;
     public GameObject scanGem;
 */
-    public GameObject visualCue;
+    public GameObject visualCueObject;
 
     public GameObject centreGem;
 
     public GameObject thisHead;
 
-    public GameObject HazardOnsetPaused;
+    public GameObject HazardWarningObject;
 
     public MeshRenderer RobotMesh;
 
@@ -40,7 +40,7 @@ public class TargetGem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        visualCue = GameObject.Find("VisualCue");
+        //visualCue = GameObject.Find("VisualCue");
         /*
         hazardGem = GameObject.Find("GhostCubie(Clone)");
         targetGem = GameObject.Find("Hexgon(Clone)");
@@ -51,9 +51,9 @@ public class TargetGem : MonoBehaviour
 
 
     //SearchTarget = targetGem.transform.position +  new Vector3(0.1f,0.1f,0f);
-    if (visualCue != null)
+    if (visualCueObject != null)
     {
-        RotateTowards(visualCue.transform.position);
+        RotateTowards(visualCueObject.transform.position);
     }
 
     else
@@ -83,7 +83,7 @@ public class TargetGem : MonoBehaviour
         }
         */
     
-         showHead = HazardOnsetPaused.GetComponent<HazardOnsetManager>().stopwatchRunning;
+         showHead = HazardWarningObject.GetComponent<HazardOnsetManager>().stopwatchRunning;
 
         if (showHead == false)
             {

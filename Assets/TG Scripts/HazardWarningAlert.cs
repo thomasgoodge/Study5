@@ -11,7 +11,7 @@ public class HazardWarningAlert : MonoBehaviour
     public float volume=0.5f;
     public bool played = false;
     public bool hazardStatus = false;
-    public Image warningImage;
+    //public Image warningImage;
 
     public GameObject HazardOnsetManagerScript;
 
@@ -24,7 +24,7 @@ private void Start()
 
     //warningImage= go.GetComponent<Image>();
 
-    warningImage.enabled = false;
+    //warningImage.enabled = false;
 }
 
 private void Update() 
@@ -33,13 +33,13 @@ private void Update()
     if (hazardStatus == true && played == false)
     {
         PlayWarning();
-        ShowWarningImage();
+        //ShowWarningImage();
         played = true;
     }
     if (hazardStatus == false)
     {
         played = false;
-        HideWarningImage();
+       // HideWarningImage();
     }
 }
 
@@ -48,7 +48,7 @@ private void Update()
     {
         audioSource.PlayOneShot(clip, volume);
     }
-
+/*
     void ShowWarningImage()
     {
         warningImage.enabled = true;
@@ -58,6 +58,7 @@ private void Update()
     {
         warningImage.enabled = false;
     }
+    */
 
 }
 

@@ -17,7 +17,7 @@ public class LaunchCalibration : MonoBehaviour
 
         await Windows.System.Launcher.LaunchUriAsync(uri);
     }
-    /*
+    
     await Windows.System.Launcher.LaunchUriAsync(uri);
         #if WINDOWS_UWP
             UnityEngine.WSA.Application.InvokeOnUIThread(async () =>
@@ -31,6 +31,6 @@ public class LaunchCalibration : MonoBehaviour
             #else
                 Debug.LogError("Launching eye tracking not supported Windows UWP");
             #endif
-            */
+            
  #endif
 }

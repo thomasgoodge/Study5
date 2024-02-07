@@ -13,13 +13,14 @@ GameObject:
   - component: {fileID: 655296734}
   - component: {fileID: 655296733}
   - component: {fileID: 1512584961}
+  - component: {fileID: 503704597}
   m_Layer: 0
   m_Name: FOE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &655296732
 Transform:
   m_ObjectHideFlags: 0
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655296731}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0313496, y: -0.27, z: -5.4972734}
+  m_LocalPosition: {x: -0.0313496, y: -0.152, z: -5.4972734}
   m_LocalScale: {x: 0.045496404, y: 0.078021176, z: 0.0013402844}
   m_Children: []
   m_Father: {fileID: 1197437577035353812}
@@ -111,6 +112,20 @@ MonoBehaviour:
   movementVector: {x: 0.02, y: 0, z: 0}
   movementFactor: 0.32
   period: 5
+--- !u!114 &503704597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655296731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4ffe09ea26dc0e429afe2e0ef887f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisObject: {fileID: 655296731}
+  toggleBool: 0
 --- !u!1 &3065380196115378023
 GameObject:
   m_ObjectHideFlags: 0
