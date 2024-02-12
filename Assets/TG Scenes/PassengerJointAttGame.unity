@@ -1193,7 +1193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618871823725745282, guid: f9605650789051b4f9dab0fbb801d5fb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.5
+      value: 0.88
       objectReference: {fileID: 0}
     - target: {fileID: 7618871823725745282, guid: f9605650789051b4f9dab0fbb801d5fb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1217,7 +1217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7618871823725745282, guid: f9605650789051b4f9dab0fbb801d5fb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.03
+      value: -0.062
       objectReference: {fileID: 0}
     - target: {fileID: 7618871823725745282, guid: f9605650789051b4f9dab0fbb801d5fb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1574,10 +1574,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce120628df2f4544a873b77a7862dabf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visualCue: {fileID: 0}
+  visualCueObject: {fileID: 0}
   centreGem: {fileID: 0}
   thisHead: {fileID: 0}
-  HazardOnsetPaused: {fileID: 0}
+  HazardWarningObject: {fileID: 0}
   RobotMesh: {fileID: 0}
   rotationSpeed: 1
   SearchTarget: {x: 0, y: 0, z: 0}

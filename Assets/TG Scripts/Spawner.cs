@@ -56,9 +56,9 @@ public class Spawner : MonoBehaviour
         //Reset the respawn time to a random number within range 
         respawnTime = Random.Range(respawnRate / 2, respawnRate * 2);
         ObjectListLength = ObjectList.Count;
-        //centre.x = (LeftPillarTransform.position.x + RightPillarTransform.position.x) / 2;
-       // centre.y = (TopCentreAOITransform.position.y/2);
-       // centre.z = (TopCentreAOITransform.position.z - 0.05f);
+        centre.x = TopCentreAOITransform.position.x;
+        centre.y = (TopCentreAOITransform.position.y/2);
+        centre.z = (TopCentreAOITransform.position.z - 0.05f);
 
     }
  

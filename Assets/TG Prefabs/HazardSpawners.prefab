@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1122336069
 Transform:
   m_ObjectHideFlags: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811aee4ac7d7ba640bf5ba79f3359150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centre: {x: 0, y: 0.1, z: 1.65}
+  centre: {x: 0, y: 0.1, z: 1}
   size: {x: 0.3, y: 0.3, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
   itemPrefab: {fileID: 279515709371442442, guid: 6a538e343b958e6458877ad26ba8bd2f, type: 3}
@@ -187,11 +187,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811aee4ac7d7ba640bf5ba79f3359150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centre: {x: 0, y: 0.1, z: 1.65}
-  size: {x: 1.14, y: 0.3, z: 0}
+  centre: {x: 0, y: 0, z: 0.93}
+  size: {x: 0.39, y: 0.12, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
   itemPrefab: {fileID: 279515709371442442, guid: 1d8aa5f061380ad44918f99c1e089b7a, type: 3}
-  respawnRate: 3
+  respawnRate: 15
   respawnTime: 0
   counter: 0
   ObjectList: []
@@ -214,7 +214,7 @@ MonoBehaviour:
   centralspawn: {x: 0, y: 0, z: 0}
   size: {x: 0, y: 0, z: 0}
   gemPrefab: {fileID: 279515709371442442, guid: 6a538e343b958e6458877ad26ba8bd2f, type: 3}
-  blockPrefab: {fileID: 0}
+  blockPrefab: {fileID: 279515709371442442, guid: 1d8aa5f061380ad44918f99c1e089b7a, type: 3}
   hazardRespawnTime: 0
   hazardRespawnRate: 1
   spawnerActive: 0
@@ -328,7 +328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811aee4ac7d7ba640bf5ba79f3359150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centre: {x: 0, y: 0.1, z: 1.65}
+  centre: {x: 0, y: 0.1, z: 1}
   size: {x: 0.3, y: 0.3, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
   itemPrefab: {fileID: 279515709371442442, guid: 6a538e343b958e6458877ad26ba8bd2f, type: 3}
@@ -466,8 +466,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811aee4ac7d7ba640bf5ba79f3359150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centre: {x: 0, y: 0.09, z: 1.5}
-  size: {x: 0.95, y: 0.52, z: 0}
+  centre: {x: 0, y: 0, z: 0.94}
+  size: {x: 0.62, y: 0.3, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
   itemPrefab: {fileID: 4489212933387002418, guid: ecf032514c17421488d6d0c5b328c428, type: 3}
   respawnRate: 2
@@ -556,11 +556,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811aee4ac7d7ba640bf5ba79f3359150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centre: {x: 0, y: 0.09, z: 1.5}
-  size: {x: 0.95, y: 0.52, z: 0}
+  centre: {x: 0, y: 0, z: 0.94}
+  size: {x: 0.62, y: 0.3, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
   itemPrefab: {fileID: 7927207392137251540, guid: 63345ca33c3902e438f3e2a6c2f2bc8c, type: 3}
-  respawnRate: 1
+  respawnRate: 1.5
   respawnTime: 0
   counter: 0
   ObjectList: []
