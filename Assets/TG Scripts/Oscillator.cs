@@ -39,13 +39,17 @@ public class Oscillator : MonoBehaviour
 
     public void StartBounce()
     {
-        StartCoroutine(CoroutineBounce());
+        period = 0.5f;
+       
+        
     }
 
-    IEnumerator CoroutineBounce()
+       public void StopBounce()
     {
-        period = 0.3f;
-        yield return new WaitForSeconds(0.5f);
         period = 3f;
+        
     }
+    
+
+
 }

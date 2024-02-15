@@ -754,6 +754,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1343498484018217014, guid: 1dd7e8e610786fc48a48d7b248e05ffd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.417
+      objectReference: {fileID: 0}
     - target: {fileID: 4048590710108749432, guid: 1dd7e8e610786fc48a48d7b248e05ffd, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -800,7 +804,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4048590710108749438, guid: 1dd7e8e610786fc48a48d7b248e05ffd, type: 3}
       propertyPath: m_Name
-      value: MainManager 1
+      value: MainManager
       objectReference: {fileID: 0}
     - target: {fileID: 6463068095791745809, guid: 1dd7e8e610786fc48a48d7b248e05ffd, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[2].m_Target

@@ -134,18 +134,6 @@ MonoBehaviour:
   onLookAtStart:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -1165555981268613972}
-        m_TargetAssemblyTypeName: SpawnParticles, Assembly-CSharp
-        m_MethodName: SpawnParticleSystem
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: -4477282243351657447}
         m_TargetAssemblyTypeName: DestroyTarget, Assembly-CSharp
         m_MethodName: DestroyThisTarget
@@ -161,18 +149,6 @@ MonoBehaviour:
   whileLookingAtTarget:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -1165555981268613972}
-        m_TargetAssemblyTypeName: SpawnParticles, Assembly-CSharp
-        m_MethodName: SpawnParticleSystem
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: -4477282243351657447}
         m_TargetAssemblyTypeName: DestroyTarget, Assembly-CSharp
         m_MethodName: DestroyThisTarget
