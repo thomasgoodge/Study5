@@ -371,6 +371,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83f6f3dc00b141048b1fe47024fb3b2c, type: 3}
+--- !u!1 &494896804 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3827472487152446429, guid: 83f6f3dc00b141048b1fe47024fb3b2c, type: 3}
+  m_PrefabInstance: {fileID: 494896803}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &517193138 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4079580387244252502, guid: 2e949a0d07d7b5b43b061996a51a4121, type: 3}
@@ -2597,6 +2602,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 187363244563260019, guid: 4b54ebb2c1d4b0848ac15e16d02c7b6a, type: 3}
+      propertyPath: targetMesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 187363244563260019, guid: 4b54ebb2c1d4b0848ac15e16d02c7b6a, type: 3}
+      propertyPath: HazardWarningObject
+      value: 
+      objectReference: {fileID: 494896804}
     - target: {fileID: 187363244563260024, guid: 4b54ebb2c1d4b0848ac15e16d02c7b6a, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -2611,7 +2624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 187363244563260024, guid: 4b54ebb2c1d4b0848ac15e16d02c7b6a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.9
+      value: -0.024
       objectReference: {fileID: 0}
     - target: {fileID: 187363244563260024, guid: 4b54ebb2c1d4b0848ac15e16d02c7b6a, type: 3}
       propertyPath: m_LocalRotation.w

@@ -557,6 +557,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 3184054975215668497, guid: dad7a1507ddd4c948988b03418a65c63, type: 3}
+      propertyPath: m_Name
+      value: SimObjects
+      objectReference: {fileID: 0}
     - target: {fileID: 4458716629733567726, guid: dad7a1507ddd4c948988b03418a65c63, type: 3}
       propertyPath: m_Layer
       value: 8

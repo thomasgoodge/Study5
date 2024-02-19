@@ -17,6 +17,7 @@ TagManager:
   - Ruby
   - Hazard
   - Button
+  - FOE
   layers:
   - Default
   - TransparentFX

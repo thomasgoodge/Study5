@@ -3594,6 +3594,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ce979f27056854a918b5d80c519271, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5518345998032057079 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8411142723601204475, guid: 5420d8672df87074ea02954d49dc7384, type: 3}
+  m_PrefabInstance: {fileID: 4048590708603008524}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1ff42f1866faa547bb2ae3ffbdabab7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4048590709135753593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3748,6 +3759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: QuitButton (MM)
       objectReference: {fileID: 0}
+    - target: {fileID: 7034083842046186553, guid: 0574ee8830c22364fa57bc20b04ccbd2, type: 3}
+      propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 5518345998032057079}
     - target: {fileID: 7034083842046186555, guid: 0574ee8830c22364fa57bc20b04ccbd2, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -3847,6 +3862,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4048590710108749432}
     m_Modifications:
+    - target: {fileID: 655296732, guid: 20e1d8f8f222cf248be1e33d222d59c2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.422
+      objectReference: {fileID: 0}
     - target: {fileID: 3065380196115378023, guid: 20e1d8f8f222cf248be1e33d222d59c2, type: 3}
       propertyPath: m_Name
       value: ScreenCalibrationCube
@@ -3865,7 +3884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3065380196115378034, guid: 20e1d8f8f222cf248be1e33d222d59c2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.2644617
+      value: 0.417
       objectReference: {fileID: 0}
     - target: {fileID: 3065380196115378034, guid: 20e1d8f8f222cf248be1e33d222d59c2, type: 3}
       propertyPath: m_LocalRotation.w

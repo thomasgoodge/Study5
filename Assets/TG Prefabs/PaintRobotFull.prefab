@@ -49,7 +49,7 @@ MonoBehaviour:
   centreGem: {fileID: 0}
   thisHead: {fileID: 5681547945660087518}
   HazardWarningObject: {fileID: 0}
-  RobotMesh: {fileID: 0}
+  RobotMesh: {fileID: 5763259395461899140}
   rotationSpeed: 1
   SearchTarget: {x: 0, y: 0, z: 0}
   targetCamera: {fileID: 0}
@@ -67,6 +67,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4a3028fdce6bc046ae212d6606f5253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenOffset: -0.15
   ScreenCalibrationCube: {fileID: 0}
 --- !u!1001 &1785324113911385208
 PrefabInstance:
@@ -85,15 +86,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6313456435153425351, guid: ef4698e664b22374ba51ae63355f7962, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6313456435153425351, guid: ef4698e664b22374ba51ae63355f7962, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 6313456435153425351, guid: ef4698e664b22374ba51ae63355f7962, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6313456435153425351, guid: ef4698e664b22374ba51ae63355f7962, type: 3}
       propertyPath: m_LocalPosition.x
@@ -145,6 +146,11 @@ GameObject:
 --- !u!4 &5718263107530907583 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6313456435153425351, guid: ef4698e664b22374ba51ae63355f7962, type: 3}
+  m_PrefabInstance: {fileID: 1785324113911385208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5763259395461899140 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2937038343628591108, guid: ef4698e664b22374ba51ae63355f7962, type: 3}
   m_PrefabInstance: {fileID: 1785324113911385208}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1785324113911385212

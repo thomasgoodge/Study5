@@ -225,11 +225,11 @@ MonoBehaviour:
   SpawnerLocation: 
   selectSpawner: 0
   spawnVector: {x: 0, y: 0, z: 0}
-  left: {x: -0.66, y: -0.15, z: 3}
-  centreleft: {x: -0.33, y: -0.15, z: 3}
-  centre: {x: 0, y: -0.15, z: 3}
-  centreright: {x: 0.33, y: -0.15, z: 3}
-  right: {x: 0.66, y: -0.15, z: 3}
+  left: {x: -1, y: -0.15, z: 4}
+  centreleft: {x: -0.5, y: -0.15, z: 4}
+  centre: {x: 0, y: -0.15, z: 4}
+  centreright: {x: 0.5, y: -0.15, z: 4}
+  right: {x: 1, y: -0.15, z: 4}
   condition: 
 --- !u!114 &6301772209578661411
 MonoBehaviour:
@@ -366,11 +366,11 @@ MonoBehaviour:
   SpawnerLocation: 
   selectSpawner: 0
   spawnVector: {x: 0, y: 0, z: 0}
-  left: {x: -0.66, y: -0.15, z: 3}
-  centreleft: {x: -0.33, y: -0.15, z: 3}
-  centre: {x: 0, y: -0.15, z: 3}
-  centreright: {x: 0.33, y: -0.15, z: 3}
-  right: {x: 0.66, y: -0.15, z: 3}
+  left: {x: -1, y: -0.15, z: 4}
+  centreleft: {x: -0.5, y: -0.15, z: 4}
+  centre: {x: 0, y: -0.15, z: 4}
+  centreright: {x: 0.5, y: -0.15, z: 4}
+  right: {x: 1, y: -0.15, z: 4}
   condition: 
 --- !u!114 &225332151
 MonoBehaviour:

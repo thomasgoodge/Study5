@@ -35,6 +35,16 @@ public class TargetGem : MonoBehaviour
         transform.LookAt(targetCamera);
         thisHead = GameObject.Find("Robot_Guardian");
         showHead = true;
+
+        if (visualCueObject == null)
+        {
+            visualCueObject = GameObject.Find("VisualCue");
+        }
+        if (visualCueObject == null)
+        {
+            visualCueObject = GameObject.Find("TargetVisualCue");
+        }
+     
     }
 
     // Update is called once per frame
@@ -55,10 +65,11 @@ public class TargetGem : MonoBehaviour
     {
         RotateTowards(visualCueObject.transform.position);
     }
-
+//    tile.transform.position = new Vector3(tile.transform.position.x + 1, tile.transform.position.y, tile.transform.position.z);
     else
     {
         RotateTowards(targetCamera.transform.position);
+       // transform.position = new Vector3(transform.position.x, (transform.position.y - 0.1f), transform.position.z);
     }
         /*
         if (hazardGem != null)
