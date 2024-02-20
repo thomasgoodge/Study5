@@ -18,33 +18,35 @@ public class ManualCalibration : MonoBehaviour
     public float volume=0.5f;
     public string date;
     public string end;
+
     
 
 //public List<Vector3> vector3s = new List<Vector3>() { new Vector2(1, 0), new Vector3(2, 9), new Vector3(5, 7,10) };
     // Start is called before the first frame update
     void Start()
     {
+
         //CheckDate();
         startPosition = transform.position;
         
         //Top Row
-        positions.Add(new Vector3 (-0.4f,0.45f,2f));
-        positions.Add(new Vector3 (0f,0.45f,2f));
-        positions.Add(new Vector3 (0.4f,0.45f,2f));
+        positions.Add(new Vector3 (-0.4f,0.45f,3f));
+        positions.Add(new Vector3 (0f,0.45f,3f));
+        positions.Add(new Vector3 (0.4f,0.45f,3f));
         //Middle Top Row
-        positions.Add(new Vector3 (-0.2f,0.2f,2f));
-        positions.Add(new Vector3 (0.2f,0.2f,2f));
+        positions.Add(new Vector3 (-0.2f,0.2f,3f));
+        positions.Add(new Vector3 (0.2f,0.2f,3f));
         //Middle Row
-        positions.Add(new Vector3 (-0.4f,0f,2f));
-        positions.Add(new Vector3 (0f,0f,2f));
-        positions.Add(new Vector3 (0.4f,0f,2f));
+        positions.Add(new Vector3 (-0.4f,0f,3f));
+        positions.Add(new Vector3 (0f,0f,3f));
+        positions.Add(new Vector3 (0.4f,0f,3f));
         //Middle Bottom Row
-        positions.Add(new Vector3 (-0.2f,-0.2f,2f));
-        positions.Add(new Vector3 (0.2f,-0.2f,2f));
+        positions.Add(new Vector3 (-0.2f,-0.2f,3f));
+        positions.Add(new Vector3 (0.2f,-0.2f,3f));
         //Bottom Row
-        positions.Add(new Vector3 (-0.4f,-0.45f,2f));
-        positions.Add(new Vector3 (0f,-0.45f,2f));
-        positions.Add(new Vector3 (0.4f,-0.45f,2f));
+        positions.Add(new Vector3 (-0.4f,-0.45f,3f));
+        positions.Add(new Vector3 (0f,-0.45f,3f));
+        positions.Add(new Vector3 (0.4f,-0.45f,3f));
 
         positionsLength = positions.Count;
 
