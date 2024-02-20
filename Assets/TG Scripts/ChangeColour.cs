@@ -27,6 +27,7 @@ public class ChangeColour : MonoBehaviour
     {
         //access the material attached to this object
         keyMaterial = GetComponent<Renderer>().material;
+        canStayHerePosition = true;
     }
 
     // Update is called once per frame
@@ -35,7 +36,7 @@ public class ChangeColour : MonoBehaviour
         preHazardActive =  HazardOnsetManagerScript.GetComponent<HazardOnsetManager>().preHazard;
         hazardActive = HazardOnsetManagerScript.GetComponent<HazardOnsetManager>().hazard;
         redHazardActive = HazardOnsetManagerScript.GetComponent<HazardOnsetManager>().redHazard;
-        canStayHerePosition = ChangePositionScript.GetComponent<ChangePosition>().canStayHere;
+        //canStayHerePosition = ChangePositionScript.GetComponent<ChangePosition>().canStayHere;
         /*if (Input.GetKey("o"))
         {
         StartCoroutine(SetColourToAmber());

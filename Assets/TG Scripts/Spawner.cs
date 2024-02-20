@@ -40,7 +40,7 @@ public class Spawner : MonoBehaviour
         GameObject RightPillar = GameObject.Find("Cylinder (R)");
         RightPillarTransform = RightPillar.GetComponent<Transform>();
 
-        GameObject TopCentreAOI = GameObject.Find("AOI(TopCentre)");
+        GameObject TopCentreAOI = GameObject.Find("AOI(BottomCentre)");
         TopCentreAOITransform = TopCentreAOI.GetComponent<Transform>();
         //if (GameRunning == true)
         //{

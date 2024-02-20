@@ -13,13 +13,12 @@ public class TrackGem : MonoBehaviour
     public GameObject currentTarget;
     public GameObject centreGem;
     public GameObject thisDot;
-    
-    public bool showHead = true;
-    public bool showMesh = true;
-
+    public bool showObjects = true;
     public bool showDot = true;
-  
     public float  travelSpeed = 0.05f;
+
+    public MeshRenderer RobotHeadMesh;
+    public MeshRenderer CueMesh;
  
 
     public Vector3 CentreTarget = new Vector3(0f, 0f, 0.5f);
@@ -31,30 +30,14 @@ public class TrackGem : MonoBehaviour
         basePosition = transform.position;
         print(basePosition);
         thisDot = GameObject.Find("VisualCue");
+        HazardWarningObject = GameObject.Find("HazardWarning");
        
     }
 
     // Update is called once per frame
     void Update()
     {
-     /*
-        if (showDot == false)
-            {
-                RobotHeadMesh.enabled = false;
-            }
-        else if (showDot == true)
-            {
-                RobotHeadMesh.enabled = true;
-            }
-        else
-        {
-            RobotHeadMesh.enabled = true;
-        }
-       */
-
-
-    
-
+       
         hazardGem = GameObject.Find("GhostCubie(Clone)");
         targetGem = GameObject.Find("ScanCubie(Clone)");
         centreGem = GameObject.Find("/MainManager/ScreenCalibrationCube/Screen/SimObjects/Wall/FOE");

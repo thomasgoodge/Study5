@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &507269235
 Transform:
   m_ObjectHideFlags: 0
@@ -239,16 +239,14 @@ MonoBehaviour:
   HazardWarningObject: {fileID: 0}
   currentTarget: {fileID: 0}
   centreGem: {fileID: 0}
-  DotMesh: {fileID: 507269237}
-  showDot: 0
-  showHazardMesh: 0
   thisDot: {fileID: 0}
-  HazardMesh: {fileID: 8288406132698119359}
+  showObjects: 1
+  showDot: 0
   travelSpeed: 7
-  SearchTarget: {x: 0, y: 0, z: 0}
-  basePosition: {x: 0, y: 0, z: 0}
-  targetMesh: {fileID: 3606607019804154231}
+  RobotHeadMesh: {fileID: 0}
+  CueMesh: {fileID: 0}
   CentreTarget: {x: 0, y: 0, z: 0.5}
+  basePosition: {x: 0, y: 0, z: 0}
 --- !u!114 &3552911195355394345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,11 +367,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5062521794225466875, guid: f29a78190d2e68d4fb79736106b0aa8e, type: 3}
   m_PrefabInstance: {fileID: 162415392}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &8288406132698119359 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 8288406132537278367, guid: f29a78190d2e68d4fb79736106b0aa8e, type: 3}
-  m_PrefabInstance: {fileID: 162415392}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &254604898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -387,7 +380,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5836322981199976822, guid: 424cc6ec862b0d54d98de78cd099bb85, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1316270559112195104, guid: 424cc6ec862b0d54d98de78cd099bb85, type: 3}
       propertyPath: m_RootOrder
@@ -451,11 +444,6 @@ Transform:
 --- !u!1 &1560568203338278556 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1560568203083747582, guid: 424cc6ec862b0d54d98de78cd099bb85, type: 3}
-  m_PrefabInstance: {fileID: 254604898}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &3606607019804154231 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 3606607019957006101, guid: 424cc6ec862b0d54d98de78cd099bb85, type: 3}
   m_PrefabInstance: {fileID: 254604898}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &565597170

@@ -10,7 +10,7 @@ public class ManualCalibration : MonoBehaviour
     private List<string> positionDisplayOrder = new List<string>();
     public int positionsLength = 0;
     public int locationInt;
-    public new Vector3 newPosition;
+    public Vector3 newPosition;
     public new Vector3 startPosition;
 
     public AudioSource audioSource;

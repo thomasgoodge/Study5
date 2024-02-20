@@ -18,7 +18,7 @@ public class TargetGem : MonoBehaviour
 
     public GameObject HazardWarningObject;
 
-    public MeshRenderer RobotMesh;
+   // public MeshRenderer RobotMesh;
 
     public float  rotationSpeed = 1.0f;
 
@@ -92,9 +92,9 @@ public class TargetGem : MonoBehaviour
         {
             RotateTowards(centreGem.transform.position);
         }
-        */
+        
     
-         showHead = HazardWarningObject.GetComponent<HazardOnsetManager>().stopwatchRunning;
+         howHead = HazardWarningObject.GetComponent<HazardOnsetManager>().stopwatchRunning;
 
         if (showHead == false)
             {
@@ -108,7 +108,9 @@ public class TargetGem : MonoBehaviour
         {
             RobotMesh.enabled = true;
         }
+        */
     }
+  
 
     void RotateTowards(Vector3 targetPosition)
     {

@@ -43,7 +43,7 @@ public class HazardSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameObject TopCentreAOI = GameObject.Find("AOI(BottomCentre)");
+        GameObject TopCentreAOI = GameObject.Find("/MainManager/ScreenCalibrationCube/Screen/AOIs/AOI(BottomCentre)");
         TopCentreAOITransform = TopCentreAOI.GetComponent<Transform>();
         float XCoord = TopCentreAOITransform.position.x;
         float YCoord = TopCentreAOITransform.position.y;
