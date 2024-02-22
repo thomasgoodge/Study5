@@ -857,6 +857,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4048590710108749438, guid: 1dd7e8e610786fc48a48d7b248e05ffd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dd7e8e610786fc48a48d7b248e05ffd, type: 3}
 --- !u!1 &949074892
@@ -1319,6 +1323,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1785324114367839892, guid: a0cf3a9bda037f3489eb808a160a3b0d, type: 3}
+      propertyPath: RobotMesh
+      value: 
+      objectReference: {fileID: 1010340961}
     - target: {fileID: 1785324114367839892, guid: a0cf3a9bda037f3489eb808a160a3b0d, type: 3}
       propertyPath: visualCueObject
       value: 

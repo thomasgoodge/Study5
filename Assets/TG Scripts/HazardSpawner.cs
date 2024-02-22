@@ -148,6 +148,7 @@ public class HazardSpawner : MonoBehaviour
         if (selectSpawner == 3)
             {
                 centralspawn.x = centre.x; 
+                centralspawn.y = centre.y + 0.1f; 
             }
         if (selectSpawner == 2)
             {

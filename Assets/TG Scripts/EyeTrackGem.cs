@@ -50,7 +50,7 @@ public class EyeTrackGem : MonoBehaviour
     void FocusOn(Vector3 targetPosition)
     {
         float speed = 0.1f;
-        float maxMoveDistance = 0.1f;
+        //float maxMoveDistance = 0.1f;
         Vector3 targetDirection = targetPosition;
         Vector3 origin = transform.position;
         

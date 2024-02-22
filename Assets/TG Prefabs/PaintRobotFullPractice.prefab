@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1785324114367839895
+--- !u!1 &7637306823404864352
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1785324114367839893}
-  - component: {fileID: 1785324114367839892}
-  - component: {fileID: 5766167642376465802}
+  - component: {fileID: 7637306823404864354}
+  - component: {fileID: 7637306823404864355}
+  - component: {fileID: 2395385235854381181}
   m_Layer: 0
-  m_Name: PaintRobotFull
+  m_Name: PaintRobotFullPractice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1785324114367839893
+--- !u!4 &7637306823404864354
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785324114367839895}
+  m_GameObject: {fileID: 7637306823404864352}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0.0026, y: -0.078, z: 0.722}
+  m_LocalPosition: {x: 0.0026, y: -0.078, z: 1.122}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5718263107530907583}
+  - {fileID: 4494818078130594376}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &1785324114367839892
+--- !u!114 &7637306823404864355
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785324114367839895}
+  m_GameObject: {fileID: 7637306823404864352}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce120628df2f4544a873b77a7862dabf, type: 3}
@@ -47,20 +47,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visualCueObject: {fileID: 0}
   centreGem: {fileID: 0}
-  thisHead: {fileID: 5681547945660087518}
+  thisHead: {fileID: 4603660704380666153}
   HazardWarningObject: {fileID: 0}
+  RobotMesh: {fileID: 0}
   rotationSpeed: 2
   SearchTarget: {x: 0, y: 0, z: 0}
   targetCamera: {fileID: 0}
   showHead: 1
   CentreTarget: {x: 0, y: 0, z: 0.5}
---- !u!114 &5766167642376465802
+--- !u!114 &2395385235854381181
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785324114367839895}
+  m_GameObject: {fileID: 7637306823404864352}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b4a3028fdce6bc046ae212d6606f5253, type: 3}
@@ -70,12 +71,12 @@ MonoBehaviour:
   screenYOffset: -0.15
   screenZOffset: -0.15
   ScreenCalibrationCube: {fileID: 0}
---- !u!1001 &1785324113911385208
+--- !u!1001 &7637306822550040975
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1785324114367839893}
+    m_TransformParent: {fileID: 7637306823404864354}
     m_Modifications:
     - target: {fileID: 6205493078662049958, guid: ef4698e664b22374ba51ae63355f7962, type: 3}
       propertyPath: m_Name
@@ -139,23 +140,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 9199261849990390558, guid: ef4698e664b22374ba51ae63355f7962, type: 3}
---- !u!1 &5681547945660087518 stripped
+--- !u!1 &4603660704380666153 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6205493078662049958, guid: ef4698e664b22374ba51ae63355f7962, type: 3}
-  m_PrefabInstance: {fileID: 1785324113911385208}
+  m_PrefabInstance: {fileID: 7637306822550040975}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &5718263107530907583 stripped
+--- !u!4 &4494818078130594376 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6313456435153425351, guid: ef4698e664b22374ba51ae63355f7962, type: 3}
-  m_PrefabInstance: {fileID: 1785324113911385208}
+  m_PrefabInstance: {fileID: 7637306822550040975}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1785324113911385212
+--- !u!114 &7637306822550040971
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5681547945660087518}
+  m_GameObject: {fileID: 4603660704380666153}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98c748f3768ab714a8449b60fb9edc5c, type: 3}
@@ -168,13 +169,13 @@ MonoBehaviour:
   localCenter: {x: 0, y: 0, z: 0}
   bounds: {x: 0, y: 0}
   touchableCollider: {fileID: 0}
---- !u!114 &1785324113911385213
+--- !u!114 &7637306822550040970
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5681547945660087518}
+  m_GameObject: {fileID: 4603660704380666153}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f98e7663599230e419addf153615c144, type: 3}
@@ -192,7 +193,7 @@ MonoBehaviour:
   TouchBegin:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1785324113911385215}
+      - m_Target: {fileID: 7637306822550040968}
         m_TargetAssemblyTypeName: Oscillator, Assembly-CSharp
         m_MethodName: StartBounce
         m_Mode: 1
@@ -219,7 +220,7 @@ MonoBehaviour:
   TouchEnd:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1785324113911385215}
+      - m_Target: {fileID: 7637306822550040968}
         m_TargetAssemblyTypeName: Oscillator, Assembly-CSharp
         m_MethodName: StopBounce
         m_Mode: 1
@@ -242,13 +243,13 @@ MonoBehaviour:
   minCompressPercentage: 0.25
   highlightPlate: {fileID: 0}
   highlightPlateAnimationTime: 0.25
---- !u!114 &1785324113911385215
+--- !u!114 &7637306822550040968
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5681547945660087518}
+  m_GameObject: {fileID: 4603660704380666153}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9847b73d9aa8f5149bee3e89fde4cccc, type: 3}
@@ -257,13 +258,13 @@ MonoBehaviour:
   movementVector: {x: 0, y: 0.01, z: 0}
   movementFactor: 0
   period: 3
---- !u!114 &1785324113911385218
+--- !u!114 &7637306822550040949
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5681547945660087518}
+  m_GameObject: {fileID: 4603660704380666153}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 183e8dd8b58276c4a8f2b807059981b8, type: 3}

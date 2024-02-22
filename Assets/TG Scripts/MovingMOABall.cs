@@ -5,7 +5,7 @@ using UnityEngine;
 public class MovingMOABall : MonoBehaviour
 {
 
-
+/*
 private float time = 0.0f;
 private bool isMoving = false;
 //private bool isActive = false;
@@ -47,5 +47,5 @@ private Rigidbody rb;
         rb.velocity= direction * Mathf.Max(speed, minVelocity);
     }
 
-
+*/
 }

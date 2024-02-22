@@ -6,16 +6,18 @@ public class FindScreenLocation : MonoBehaviour
 {
     private Vector3 cubeLocation; 
 
-    public float screenOffset = -0.1f;
+    public float screenXOffset = 0f;
+    public float screenYOffset = 0f;
+    public float screenZOffset = 0f;
 
     public GameObject ScreenCalibrationCube;
     // Start is called before the first frame update
     void Update()
     {
-        ScreenCalibrationCube = GameObject.Find("/MainManager/ScreenCalibrationCube");
+        ScreenCalibrationCube = GameObject.Find("AOI(BottomCentre)");
         if (ScreenCalibrationCube != null)
         {
-            transform.position = ScreenCalibrationCube.transform.position + new Vector3(0f, screenOffset,0f);
+            transform.position = ScreenCalibrationCube.transform.position + new Vector3(screenXOffset, screenYOffset,screenZOffset);
         }
         else
         {

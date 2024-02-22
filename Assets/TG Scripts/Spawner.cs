@@ -40,7 +40,7 @@ public class Spawner : MonoBehaviour
         GameObject RightPillar = GameObject.Find("Cylinder (R)");
         RightPillarTransform = RightPillar.GetComponent<Transform>();
 
-        GameObject TopCentreAOI = GameObject.Find("AOI(BottomCentre)");
+        GameObject TopCentreAOI = GameObject.Find("AOI(TopCentre)");
         TopCentreAOITransform = TopCentreAOI.GetComponent<Transform>();
         //if (GameRunning == true)
         //{
@@ -53,6 +53,13 @@ public class Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Access the Left and Right pillars to get their transforms
+        GameObject LeftPillar = GameObject.Find("Cylinder (L)");
+        LeftPillarTransform = LeftPillar.GetComponent<Transform>();
+        GameObject RightPillar = GameObject.Find("Cylinder (R)");
+        RightPillarTransform = RightPillar.GetComponent<Transform>();
+
+        GameObject TopCentreAOI = GameObject.Find("AOI(TopCentre)");
         //Reset the respawn time to a random number within range 
         respawnTime = Random.Range(respawnRate / 2, respawnRate * 2);
         ObjectListLength = ObjectList.Count;

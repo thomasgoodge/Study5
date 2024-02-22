@@ -18,7 +18,7 @@ public class TargetGem : MonoBehaviour
 
     public GameObject HazardWarningObject;
 
-   // public MeshRenderer RobotMesh;
+    public MeshRenderer RobotMesh;
 
     public float  rotationSpeed = 1.0f;
 
@@ -71,30 +71,9 @@ public class TargetGem : MonoBehaviour
         RotateTowards(targetCamera.transform.position);
        // transform.position = new Vector3(transform.position.x, (transform.position.y - 0.1f), transform.position.z);
     }
-        /*
-        if (hazardGem != null)
-        {
-            RotateTowards(hazardGem.transform.position);
-        }
-        else if (scanGem != null)
-        {
-            RotateTowards(scanGem.transform.position);
-        }
-       /* else if (targetGem != null)
-        {
-            RotateTowards(targetGem.transform.position);
-        }
-        else if (targetGem2 != null)
-        {
-            RotateTowards(targetGem2.transform.position);
-        }
-        else if (centreGem != null)
-        {
-            RotateTowards(centreGem.transform.position);
-        }
         
     
-         howHead = HazardWarningObject.GetComponent<HazardOnsetManager>().stopwatchRunning;
+        showHead = HazardWarningObject.GetComponent<HazardOnsetManager>().stopwatchRunning;
 
         if (showHead == false)
             {
@@ -108,7 +87,7 @@ public class TargetGem : MonoBehaviour
         {
             RobotMesh.enabled = true;
         }
-        */
+        
     }
   
 
