@@ -11,7 +11,7 @@ public class ManualCalibration : MonoBehaviour
     public int positionsLength = 0;
     public int locationInt;
     public Vector3 newPosition;
-    public new Vector3 startPosition;
+    public Vector3 startPosition;
 
     public AudioSource audioSource;
     public AudioClip clip;

@@ -34,6 +34,10 @@ public class VisualTargetTrackHazard : MonoBehaviour
         hazardGem = GameObject.Find("GhostCubie(Clone)");
         targetGem = GameObject.Find("ScanCubie(Clone)");
         centreTarget = GameObject.Find("VisualTargetAnchor");
+        if (centreTarget == null)
+        {
+            centreTarget = GameObject.Find("VisualTargetAnchorPractice");
+        }
      
         if (hazardGem != null)
         {

@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8569780197227839897
 RectTransform:
   m_ObjectHideFlags: 0
@@ -142,7 +142,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3827472487152446429}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ac1b1a4a205e9c64d8c37c5241cbb796, type: 3}
@@ -262,6 +262,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hazard: 0
+  preHazard: 0
+  redHazard: 0
   currentState: 0
   HazardSpawnerScript: {fileID: 3827472487152446429}
   HazardListScript: {fileID: 0}
@@ -292,21 +294,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   centralspawn: {x: 0, y: 0, z: 0}
   size: {x: 0, y: 0, z: 0}
-  gemPrefab: {fileID: 0}
+  gemPrefab: {fileID: 279515709371442442, guid: 6a538e343b958e6458877ad26ba8bd2f, type: 3}
+  blockPrefab: {fileID: 0}
   hazardRespawnTime: 0
   hazardRespawnRate: 1
   spawnerActive: 0
+  spawned: 0
   HazardOnsetManagerScript: {fileID: 3827472487152446429}
   GetSpawnerLocationScript: {fileID: 0}
+  TopCentreAOI: {fileID: 0}
   SpawnerLocation: 
   selectSpawner: 0
+  spawnVector: {x: 0, y: 0, z: 0}
   left: {x: -0.25, y: 0, z: 0.8}
   centreleft: {x: -0.1, y: 0, z: 0.8}
   centre: {x: 0, y: 0, z: 0.8}
   centreright: {x: 0.1, y: 0, z: 0.8}
   right: {x: 0.25, y: 0, z: 0.8}
   condition: 
-  TopCentreAOI: {fileID: 0}
 --- !u!1 &9154470836371911909
 GameObject:
   m_ObjectHideFlags: 0

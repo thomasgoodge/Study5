@@ -233,7 +233,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 507269234, guid: 2d96cbf7c76d36b419f3da45b7a64e45, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 507269239, guid: 2d96cbf7c76d36b419f3da45b7a64e45, type: 3}
       propertyPath: HazardOnsetManagerScript
@@ -2103,6 +2103,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: VisualTargetAnchorPractice
       objectReference: {fileID: 0}
+    - target: {fileID: 5472473544403917056, guid: 3f7be35283f831b44a6d74f6eb6a72d9, type: 3}
+      propertyPath: HazardOnsetManagerScript
+      value: 
+      objectReference: {fileID: 494896804}
+    - target: {fileID: 5472473544403917059, guid: 3f7be35283f831b44a6d74f6eb6a72d9, type: 3}
+      propertyPath: HazardWarningObject
+      value: 
+      objectReference: {fileID: 494896804}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f7be35283f831b44a6d74f6eb6a72d9, type: 3}
 --- !u!1 &1636476288408046856
@@ -2302,11 +2310,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 548159503, guid: 2df55d48e927cbb4b93099e9a7281b33, type: 3}
       propertyPath: keywords.Array.data[0].response.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
-      value: DisableMesh
+      value: CheckDate
       objectReference: {fileID: 0}
     - target: {fileID: 548159503, guid: 2df55d48e927cbb4b93099e9a7281b33, type: 3}
       propertyPath: keywords.Array.data[0].response.m_PersistentCalls.m_Calls.Array.data[6].m_MethodName
-      value: StartBounce
+      value: WriteDate
       objectReference: {fileID: 0}
     - target: {fileID: 548159503, guid: 2df55d48e927cbb4b93099e9a7281b33, type: 3}
       propertyPath: keywords.Array.data[0].response.m_PersistentCalls.m_Calls.Array.data[7].m_MethodName
@@ -2346,11 +2354,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 548159503, guid: 2df55d48e927cbb4b93099e9a7281b33, type: 3}
       propertyPath: keywords.Array.data[0].response.m_PersistentCalls.m_Calls.Array.data[5].m_TargetAssemblyTypeName
-      value: ResetCube, Assembly-CSharp
+      value: DateChecker, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 548159503, guid: 2df55d48e927cbb4b93099e9a7281b33, type: 3}
       propertyPath: keywords.Array.data[0].response.m_PersistentCalls.m_Calls.Array.data[6].m_TargetAssemblyTypeName
-      value: Oscillator, Assembly-CSharp
+      value: DateChecker, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 548159503, guid: 2df55d48e927cbb4b93099e9a7281b33, type: 3}
       propertyPath: keywords.Array.data[0].response.m_PersistentCalls.m_Calls.Array.data[7].m_TargetAssemblyTypeName
@@ -2530,11 +2538,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2770087433488641938, guid: 2df55d48e927cbb4b93099e9a7281b33, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
-      value: DisableMesh
+      value: CheckDate
       objectReference: {fileID: 0}
     - target: {fileID: 2770087433488641938, guid: 2df55d48e927cbb4b93099e9a7281b33, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[6].m_MethodName
-      value: ToggleObject
+      value: WriteDate
       objectReference: {fileID: 0}
     - target: {fileID: 2770087433488641938, guid: 2df55d48e927cbb4b93099e9a7281b33, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[7].m_MethodName
@@ -2566,11 +2574,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2770087433488641938, guid: 2df55d48e927cbb4b93099e9a7281b33, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[5].m_TargetAssemblyTypeName
-      value: ResetCube, Assembly-CSharp
+      value: DateChecker, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2770087433488641938, guid: 2df55d48e927cbb4b93099e9a7281b33, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[6].m_TargetAssemblyTypeName
-      value: ToggleEnabled, Assembly-CSharp
+      value: DateChecker, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2770087433488641938, guid: 2df55d48e927cbb4b93099e9a7281b33, type: 3}
       propertyPath: ButtonReleased.m_PersistentCalls.m_Calls.Array.data[7].m_TargetAssemblyTypeName
@@ -2847,7 +2855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4176112462666045869, guid: cf3c498d6a194e44a847bb7a4a8d1664, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6301772209578661411, guid: cf3c498d6a194e44a847bb7a4a8d1664, type: 3}
       propertyPath: PauseScript

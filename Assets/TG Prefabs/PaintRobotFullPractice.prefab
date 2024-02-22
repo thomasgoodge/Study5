@@ -53,6 +53,7 @@ MonoBehaviour:
   rotationSpeed: 2
   SearchTarget: {x: 0, y: 0, z: 0}
   targetCamera: {fileID: 0}
+  faceScreen: 0
   showHead: 1
   CentreTarget: {x: 0, y: 0, z: 0.5}
 --- !u!114 &2395385235854381181
@@ -68,8 +69,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenXOffset: 0
-  screenYOffset: -0.15
-  screenZOffset: -0.15
+  screenYOffset: -0.1
+  screenZOffset: -0.3
   ScreenCalibrationCube: {fileID: 0}
 --- !u!1001 &7637306822550040975
 PrefabInstance:
@@ -150,7 +151,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6313456435153425351, guid: ef4698e664b22374ba51ae63355f7962, type: 3}
   m_PrefabInstance: {fileID: 7637306822550040975}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7637306822550040971
+--- !u!114 &7637306822550040949
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,16 +160,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 4603660704380666153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98c748f3768ab714a8449b60fb9edc5c, type: 3}
+  m_Script: {fileID: 11500000, guid: 183e8dd8b58276c4a8f2b807059981b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   eventsToReceive: 0
-  debounceThreshold: 0.01
-  localForward: {x: -0, y: -0, z: -1}
-  localUp: {x: 0, y: 1, z: 0}
-  localCenter: {x: 0, y: 0, z: 0}
-  bounds: {x: 0, y: 0}
+  debounceThreshold: 0.25
   touchableCollider: {fileID: 0}
+--- !u!114 &7637306822550040968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4603660704380666153}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9847b73d9aa8f5149bee3e89fde4cccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: 0, y: 0.01, z: 0}
+  movementFactor: 0
+  period: 3
 --- !u!114 &7637306822550040970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,22 +255,7 @@ MonoBehaviour:
   minCompressPercentage: 0.25
   highlightPlate: {fileID: 0}
   highlightPlateAnimationTime: 0.25
---- !u!114 &7637306822550040968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4603660704380666153}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9847b73d9aa8f5149bee3e89fde4cccc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementVector: {x: 0, y: 0.01, z: 0}
-  movementFactor: 0
-  period: 3
---- !u!114 &7637306822550040949
+--- !u!114 &7637306822550040971
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -267,9 +264,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4603660704380666153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 183e8dd8b58276c4a8f2b807059981b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 98c748f3768ab714a8449b60fb9edc5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   eventsToReceive: 0
-  debounceThreshold: 0.25
+  debounceThreshold: 0.01
+  localForward: {x: -0, y: -0, z: -1}
+  localUp: {x: 0, y: 1, z: 0}
+  localCenter: {x: 0, y: 0, z: 0}
+  bounds: {x: 0, y: 0}
   touchableCollider: {fileID: 0}

@@ -2718,5 +2718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4a3028fdce6bc046ae212d6606f5253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  screenOffset: -0.1
+  screenXOffset: 0
+  screenYOffset: -0.08
+  screenZOffset: 0
   ScreenCalibrationCube: {fileID: 0}

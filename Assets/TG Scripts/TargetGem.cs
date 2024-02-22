@@ -18,6 +18,8 @@ public class TargetGem : MonoBehaviour
 
     public GameObject HazardWarningObject;
 
+    public GameObject userCamera;
+
     public MeshRenderer RobotMesh;
 
     public float  rotationSpeed = 1.0f;
@@ -26,14 +28,18 @@ public class TargetGem : MonoBehaviour
 
     public Transform targetCamera;
 
+    public bool faceScreen = false;
+
     public bool showHead = true;
 
     public Vector3 CentreTarget = new Vector3(0f, 0f, 0.5f);
     // Start is called before the first frame update
     void Start()
     {
-        transform.LookAt(targetCamera);
+        
         thisHead = GameObject.Find("Robot_Guardian");
+       
+        transform.LookAt(targetCamera);
         showHead = true;
 
         if (visualCueObject == null)
@@ -61,16 +67,11 @@ public class TargetGem : MonoBehaviour
 
 
     //SearchTarget = targetGem.transform.position +  new Vector3(0.1f,0.1f,0f);
-    if (visualCueObject != null)
+    if (visualCueObject != null && faceScreen == true)
     {
         RotateTowards(visualCueObject.transform.position);
     }
 //    tile.transform.position = new Vector3(tile.transform.position.x + 1, tile.transform.position.y, tile.transform.position.z);
-    else
-    {
-        RotateTowards(targetCamera.transform.position);
-       // transform.position = new Vector3(transform.position.x, (transform.position.y - 0.1f), transform.position.z);
-    }
         
     
         showHead = HazardWarningObject.GetComponent<HazardOnsetManager>().stopwatchRunning;
@@ -99,6 +100,11 @@ public class TargetGem : MonoBehaviour
         
         // Use Lerp to smoothly interpolate between the current rotation and the target rotation
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+    }
+
+    public void HeadFaceScreen()
+    {
+        faceScreen = true;
     }
 
 }
