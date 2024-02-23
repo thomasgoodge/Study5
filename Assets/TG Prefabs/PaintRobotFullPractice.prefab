@@ -49,6 +49,7 @@ MonoBehaviour:
   centreGem: {fileID: 0}
   thisHead: {fileID: 4603660704380666153}
   HazardWarningObject: {fileID: 0}
+  userCamera: {fileID: 0}
   RobotMesh: {fileID: 0}
   rotationSpeed: 2
   SearchTarget: {x: 0, y: 0, z: 0}
@@ -69,8 +70,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenXOffset: 0
-  screenYOffset: -0.1
-  screenZOffset: -0.3
+  screenYOffset: -0.12
+  screenZOffset: -0.2
   ScreenCalibrationCube: {fileID: 0}
 --- !u!1001 &7637306822550040975
 PrefabInstance:

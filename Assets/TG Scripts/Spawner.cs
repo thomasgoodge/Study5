@@ -18,48 +18,26 @@ public class Spawner : MonoBehaviour
     public List<GameObject> ObjectList = new List<GameObject>();
 
     public int ObjectListLength;
-
-    public GameObject LeftPillar;
-    Transform LeftPillarTransform;  
-    public GameObject RightPillar;
-    Transform RightPillarTransform;
-
     public GameObject TopCentreAOI;
-    Transform TopCentreAOITransform;
-
 
 
     // Start is called before the first frame update
     void Start()
     {
 
-        //size = new Vector3 (0.6f, 0.3f, 0f);
-        //Access the Left and Right pillars to get their transforms
-        GameObject LeftPillar = GameObject.Find("Cylinder (L)");
-        LeftPillarTransform = LeftPillar.GetComponent<Transform>();
-        GameObject RightPillar = GameObject.Find("Cylinder (R)");
-        RightPillarTransform = RightPillar.GetComponent<Transform>();
-
-        GameObject TopCentreAOI = GameObject.Find("AOI(TopCentre)");
-        TopCentreAOITransform = TopCentreAOI.GetComponent<Transform>();
-        //if (GameRunning == true)
-        //{
-
-            //StartCoroutine(SpawnObject());
-       //}
-        //devise the centre of the spawner as halfway between the left and right pillar
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        GameObject TopCentreAOI = GameObject.Find("AOI(TopCentre)");
+        TopCentreAOI = GameObject.Find("AOI(TopCentre)");
         //Reset the respawn time to a random number within range 
         respawnTime = Random.Range(respawnRate / 2, respawnRate * 2);
         ObjectListLength = ObjectList.Count;
-        centre.x = TopCentreAOITransform.position.x;
-        centre.y = (TopCentreAOITransform.position.y/2);
-        centre.z = (TopCentreAOITransform.position.z - 0.05f);
+        centre.x =  TopCentreAOI.transform.position.x;
+        centre.y = (TopCentreAOI.transform.position.y/2);
+        centre.z = (TopCentreAOI.transform.position.z - 0.05f);
 
     }
  

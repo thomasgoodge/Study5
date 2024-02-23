@@ -30,23 +30,23 @@ public class ManualCalibration : MonoBehaviour
         startPosition = transform.position;
         
         //Top Row
-        positions.Add(new Vector3 (-0.4f,0.45f,3f));
-        positions.Add(new Vector3 (0f,0.45f,3f));
-        positions.Add(new Vector3 (0.4f,0.45f,3f));
+        positions.Add(new Vector3 (-0.6f,0.65f,4f));
+        positions.Add(new Vector3 (0f,0.65f,4f));
+        positions.Add(new Vector3 (0.6f,0.65f,4f));
         //Middle Top Row
-        positions.Add(new Vector3 (-0.2f,0.2f,3f));
-        positions.Add(new Vector3 (0.2f,0.2f,3f));
+        positions.Add(new Vector3 (-0.3f,0.32f,4f));
+        positions.Add(new Vector3 (0.3f,0.32f,4f));
         //Middle Row
-        positions.Add(new Vector3 (-0.4f,0f,3f));
-        positions.Add(new Vector3 (0f,0f,3f));
-        positions.Add(new Vector3 (0.4f,0f,3f));
+        positions.Add(new Vector3 (-0.6f,0f,4f));
+        positions.Add(new Vector3 (0f,0f,4f));
+        positions.Add(new Vector3 (0.6f,0f,4f));
         //Middle Bottom Row
-        positions.Add(new Vector3 (-0.2f,-0.2f,3f));
-        positions.Add(new Vector3 (0.2f,-0.2f,3f));
+        positions.Add(new Vector3 (-0.3f,-0.32f,4f));
+        positions.Add(new Vector3 (0.3f,-0.32f,4f));
         //Bottom Row
-        positions.Add(new Vector3 (-0.4f,-0.45f,3f));
-        positions.Add(new Vector3 (0f,-0.45f,3f));
-        positions.Add(new Vector3 (0.4f,-0.45f,3f));
+        positions.Add(new Vector3 (-0.6f,-0.65f,4f));
+        positions.Add(new Vector3 (0f,-0.65f,4f));
+        positions.Add(new Vector3 (0.6f,-0.65f,4f));
 
         positionsLength = positions.Count;
 
