@@ -11,7 +11,9 @@ public class VisualTargetTrackHazard : MonoBehaviour
     public GameObject centreTarget;
     public GameObject thisDot;
     public bool showBar = true;
+  
     public float  travelSpeed = 0.05f;
+
 
     public MeshRenderer CueMesh;
 
@@ -38,9 +40,11 @@ public class VisualTargetTrackHazard : MonoBehaviour
         {
             centreTarget = GameObject.Find("VisualTargetAnchorPractice");
         }
+       
      
         if (hazardGem != null)
         {
+            
             currentTarget = hazardGem;
             transform.position = Vector3.Lerp(transform.position, new Vector3 (hazardGem.transform.position.x, transform.position.y, transform.position.z), travelSpeed);
             //transform.position = new Vector3(transform.position.x, (transform.position.y - 0.1f), transform.position.z);

@@ -64,6 +64,7 @@ GameObject:
   - component: {fileID: 5498504172364770024}
   - component: {fileID: 5498504172364770025}
   - component: {fileID: 5498504172364770030}
+  - component: {fileID: 5498504172364770031}
   - component: {fileID: 5498504172364770028}
   m_Layer: 0
   m_Name: VisualTarget
@@ -149,6 +150,29 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5498504172364770031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5498504172364770029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ffd42ffaefea7c48a6cc0767f5dd088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentColor: {r: 0, g: 0, b: 0, a: 0}
+  baseColour: {r: 0.086908154, g: 0.14338413, b: 0.8773585, a: 0}
+  amberColour: {r: 255, g: 120, b: 0, a: 0}
+  redColour: {r: 255, g: 0, b: 0, a: 0}
+  preHazardActive: 0
+  hazardActive: 0
+  redHazardActive: 0
+  canStayHerePosition: 0
+  speed: 0.5
+  HazardOnsetManagerScript: {fileID: 0}
+  ChangePositionScript: {fileID: 0}
 --- !u!114 &5498504172364770028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,7 +206,7 @@ GameObject:
   - component: {fileID: 5498504173024918573}
   - component: {fileID: 5498504173024918578}
   m_Layer: 0
-  m_Name: VisualTargetAnchorPractice
+  m_Name: VisualTargetAnchorHazardPractice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -231,6 +255,7 @@ GameObject:
   - component: {fileID: 2578629474035689915}
   - component: {fileID: 7878278921771440319}
   - component: {fileID: 6273366063881990233}
+  - component: {fileID: 4654635798490007956}
   - component: {fileID: 4844320367281157235}
   m_Layer: 8
   m_Name: VisualTargetAOI
@@ -316,6 +341,29 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4654635798490007956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8939872134835689004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ffd42ffaefea7c48a6cc0767f5dd088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentColor: {r: 0, g: 0, b: 0, a: 0}
+  baseColour: {r: 0.086908154, g: 0.14338413, b: 0.8773585, a: 0}
+  amberColour: {r: 255, g: 120, b: 0, a: 0}
+  redColour: {r: 255, g: 0, b: 0, a: 0}
+  preHazardActive: 0
+  hazardActive: 0
+  redHazardActive: 0
+  canStayHerePosition: 0
+  speed: 0.5
+  HazardOnsetManagerScript: {fileID: 0}
+  ChangePositionScript: {fileID: 0}
 --- !u!114 &4844320367281157235
 MonoBehaviour:
   m_ObjectHideFlags: 0
