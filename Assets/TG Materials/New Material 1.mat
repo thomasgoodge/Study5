@@ -8,15 +8,14 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: New Material 1
-  m_Shader: {fileID: 4800000, guid: 5bdea20278144b11916d77503ba1467a, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: USE_ALBEDO_TEXTURE _ALPHABLEND_ON _ALPHAPREMULTIPLY_ON _AUTO_PULSE__ON
     _DIRECTIONAL_LIGHT _DISABLE_ALBEDO_MAP _HOVER_LIGHT _PULSE_ENABLED__ON _SPECULAR_HIGHLIGHTS
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap:
-    RenderType: Fade
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -106,6 +105,7 @@ Material:
     - _Cutoff: 0.5
     - _Desaturated_Intensity_: 0
     - _DetailNormalMapScale: 1
+    - _DiffusePower: 1
     - _DirectionalLight: 1
     - _DstBlend: 10
     - _EdgeSmoothingValue: 0.002
@@ -142,6 +142,8 @@ Material:
     - _IridescenceIntensity: 0.5
     - _IridescenceThreshold: 0.05
     - _Line_End_Time_: 0.5
+    - _MaskSoftnessX: 0
+    - _MaskSoftnessY: 0
     - _Max_Hover_: 0.004
     - _Max_In_Angle_: 0.6
     - _Max_Out_Angle_: 0.4
@@ -199,6 +201,8 @@ Material:
     - _VertexExtrusion: 0
     - _VertexExtrusionSmoothNormals: 0
     - _VertexExtrusionValue: 0
+    - _VertexOffsetX: 0
+    - _VertexOffsetY: 0
     - _WindQuality: 0
     - _WireThickness: 100
     - _Wrist_Fade_End_: 0.16
@@ -209,6 +213,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
     - _ClippingBorderColor: {r: 1, g: 0.2, b: 0, a: 1}
     - _Color: {r: 0.010679938, g: 0.754717, b: 0.70430905, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

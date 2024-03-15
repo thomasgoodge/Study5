@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenXOffset: 0
-  screenYOffset: -0.1
+  screenYOffset: -0.05
   screenZOffset: -0.2
   ScreenCalibrationCube: {fileID: 0}
 --- !u!1001 &1785324113911385208

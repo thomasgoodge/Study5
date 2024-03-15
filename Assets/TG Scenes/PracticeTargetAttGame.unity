@@ -1546,6 +1546,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 494896804}
     - target: {fileID: 5498504172364770028, guid: 379df328620b641438ccd04bc5ad74bc, type: 3}
+      propertyPath: CueMesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5498504172364770028, guid: 379df328620b641438ccd04bc5ad74bc, type: 3}
       propertyPath: HazardWarningObject
       value: 
       objectReference: {fileID: 494896804}
